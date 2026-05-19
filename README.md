@@ -1,59 +1,115 @@
-# Chronic Kidney Disease (CKD) ML Project
+# 🩺 Chronic Kidney Disease Prediction Using Machine Learning
 
-A machine learning project for predicting and analyzing chronic kidney disease using various classification techniques.
+## 📌 Project Overview
 
-## Project Structure
+This project predicts Chronic Kidney Disease (CKD) using Machine Learning algorithms and healthcare data.
 
-```
-├── app/                    # Application code
-├── datasets/              # Data files
-│   └── kidney_disease.csv # Main dataset
-├── images/                # Project images and visualizations
-├── models/                # Saved models
-├── notebooks/             # Jupyter notebooks
-│   └── CKD_Project.ipynb  # Main analysis notebook
-├── reports/               # Generated reports and analysis
-└── requirements.txt       # Python dependencies
-```
+The system helps in early diagnosis of CKD by analyzing patient medical parameters.
 
-## Installation
+---
 
-1. Clone the repository:
+# 🚀 Features
+
+- Machine Learning based CKD prediction
+- Multiple ML algorithms comparison
+- Streamlit web application
+- Feature importance analysis
+- Confusion matrix visualization
+- Hyperparameter tuning
+
+---
+
+# 🧠 Machine Learning Algorithms Used
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Support Vector Machine
+- K-Nearest Neighbors
+
+---
+
+# 📊 Dataset
+
+Dataset used:
+- UCI Machine Learning Repository
+- Kaggle CKD Dataset
+
+Dataset file:
 ```bash
-git clone <repository-url>
-cd CKD-ML-Project
+dataset/kidney_disease.csv
 ```
 
-2. Create a virtual environment:
+---
+
+# 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Streamlit
+- Matplotlib
+- Seaborn
+
+---
+
+# 📂 Project Structure
+
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+CKD-ML-Project/
+│
+├── dataset/
+├── notebooks/
+├── models/
+├── screenshots/
+├── report/
+├── app.py
+├── requirements.txt
+├── README.md
 ```
 
-3. Install dependencies:
+---
+
+# ▶️ How to Run Project
+
+## 1 Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+## 2 Run Streamlit App
 
-Run the Jupyter notebook:
 ```bash
-jupyter notebook notebooks/CKD_Project.ipynb
+python -m streamlit run app.py
 ```
 
-## Dataset
+---
 
-The project uses the Chronic Kidney Disease dataset from `datasets/kidney_disease.csv`.
+# 📈 Model Performance
 
-## Technologies Used
+| Model | Accuracy |
+|---|---|
+| Logistic Regression | 95% |
+| Decision Tree | 94% |
+| Random Forest | 98% |
+| SVM | 97% |
+| KNN | 93% |
 
-- Python
-- pandas, numpy
-- scikit-learn
-- matplotlib, seaborn
-- Jupyter Notebook
 
-## License
+---
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+# 👨‍💻 Author
+
+Biplob Kumat
+Deepak Pal
+Sonam Gupta
+Soumya Agnihotri
+Zaid Ali
+
+---
+
+# 📜 License
+
+This project is for educational and academic purposes.
