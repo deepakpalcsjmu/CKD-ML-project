@@ -282,7 +282,7 @@ if st.button("Predict CKD"):
 
     st.subheader("Prediction Result")
 
-    if prediction[0] == 1:
+    if prediction[0] == 0:
 
         st.error(
             "⚠️ Patient is likely to have Chronic Kidney Disease"
